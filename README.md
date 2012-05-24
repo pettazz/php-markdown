@@ -12,7 +12,12 @@ I needed a simple php library for converting both to and from Markdown, but ther
 
 ## Usage
 
-    require 'Markdown.php';
-    $someMarkdown = Markdown::toMarkdown($someHTML);
-    $someHTML = Markdown::toHTML($someMarkdown);
-    
+    <?php
+        require 'markdown.php';
+        
+        //convert some HTML string to Markdown
+        $someMarkdown = Markdown::toMarkdown($someHTML);
+
+        //convert some Markdown string to HTML
+        $someHTML = Markdown::toHTML($someMarkdown);
+    ?>
