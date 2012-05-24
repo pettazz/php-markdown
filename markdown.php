@@ -1,7 +1,7 @@
 <?php
 
-	require 'markdownify.php';
-	require 'php-markdown.php';
+	require 'lib/markdownify.php';
+	require 'lib/php-markdown.php';
 
 	class Markdown{
 
